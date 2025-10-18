@@ -6,7 +6,7 @@ import { TracksPage } from '@/features/tracks/ui/TrackPage/TracksPage'
 
 import { MainPage } from '@/app/ui/MainPage/MainPage'
 
-import { PageNotFound } from '../components/PageNotFound/PageNotFound'
+import { PageNotFound } from '@/common/components'
 
 export const Path = {
   Main: '/',
