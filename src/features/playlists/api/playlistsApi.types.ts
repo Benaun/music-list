@@ -48,3 +48,9 @@ export interface CreatePlaylistArgs {
   title: string
   description: string
 }
+
+export interface UpdatePlaylistArgs {
+  title: string
+  description: string
+  tagIds: string[]
+}
